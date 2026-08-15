@@ -1,0 +1,10 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "groupings": [
+    {
+      "title": "Design & UI",
+      "description": "Discovery-to-build workflow that stops AI-generated sites from looking generic.",
+      "skills": ["frontend-design-workflow"]
+    }
+  ]
+}
