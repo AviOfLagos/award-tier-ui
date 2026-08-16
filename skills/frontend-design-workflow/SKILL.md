@@ -19,7 +19,7 @@ compatibility: >-
 metadata:
   author: David Olatunji
   version: 1.0.0
-  homepage: https://avi.nexprove.com
+  homepage: https://github.com/AviOfLagos/frontend-design-workflow
 ---
 
 # Frontend design workflow
