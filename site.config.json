@@ -1,0 +1,7 @@
+{
+  "$comment": "Single source of truth for the project's public website URL. Edit siteUrl here (or better, run scripts/set-site-url.sh), never by hand in other files. repoUrl is separate on purpose: it is used for git clone and install commands and must NOT follow siteUrl.",
+  "name": "frontend-design-workflow",
+  "owner": "AviOfLagos",
+  "repoUrl": "https://github.com/AviOfLagos/frontend-design-workflow",
+  "siteUrl": "https://github.com/AviOfLagos/frontend-design-workflow"
+}
