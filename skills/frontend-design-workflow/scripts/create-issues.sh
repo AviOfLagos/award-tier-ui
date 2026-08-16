@@ -81,7 +81,7 @@ omission to discover in production.
 Anything not named above. Open a separate issue.
 
 ---
-Generated from \`assets/backlog.md\` by the award-tier-ui skill.
+Generated from \`assets/backlog.md\` by the frontend-design-workflow skill.
 EOF
 )
 
