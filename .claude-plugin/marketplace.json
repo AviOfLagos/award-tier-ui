@@ -1,5 +1,5 @@
 {
-  "name": "award-tier-ui-marketplace",
+  "name": "frontend-design-workflow-marketplace",
   "owner": {
     "name": "David Olatunji"
   },
@@ -10,7 +10,7 @@
       "description": "Stops AI-generated websites from looking generic. Research, art direction, information architecture and a rendering decision before any markup.",
       "version": "1.0.0",
       "author": { "name": "David Olatunji" },
-      "homepage": "https://github.com/AviOfLagos/award-tier-ui",
+      "homepage": "https://github.com/AviOfLagos/frontend-design-workflow",
       "license": "MIT",
       "source": "./",
       "strict": false,
