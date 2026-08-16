@@ -57,26 +57,26 @@ place. This one is a **method**, and it differs in five specific ways:
 **Any agent that supports the open Agent Skills format:**
 
 ```bash
-npx skills add AviOfLagos/award-tier-ui
+npx skills add AviOfLagos/frontend-design-workflow
 ```
 
 **Claude Code** (this repo ships a plugin manifest, so the marketplace command works):
 
 ```bash
-/plugin marketplace add AviOfLagos/award-tier-ui
+/plugin marketplace add AviOfLagos/frontend-design-workflow
 /plugin install frontend-design-workflow
 ```
 
 **GitHub CLI:**
 
 ```bash
-gh skill install AviOfLagos/award-tier-ui frontend-design-workflow
+gh skill install AviOfLagos/frontend-design-workflow frontend-design-workflow
 ```
 
 **Gemini CLI:**
 
 ```bash
-gemini skills install https://github.com/AviOfLagos/award-tier-ui.git --consent
+gemini skills install https://github.com/AviOfLagos/frontend-design-workflow.git --consent
 ```
 
 **Cursor:** Customize → Rules → Add Rule → Remote Rule (GitHub) → paste the repo URL.
@@ -87,7 +87,7 @@ or whichever skills directory your tool reads.
 **Claude apps** — download the `.zip` from the releases page and upload it under
 Settings → Capabilities.
 
-**No skill support in your tool?** [`AWARD-TIER-UI.md`](./AWARD-TIER-UI.md) is the whole thing as one
+**No skill support in your tool?** [`FRONTEND-DESIGN-WORKFLOW.md`](./FRONTEND-DESIGN-WORKFLOW.md) is the whole thing as one
 file. Paste it alongside your PRD.
 
 ## When it triggers

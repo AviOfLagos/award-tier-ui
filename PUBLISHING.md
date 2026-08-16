@@ -5,15 +5,15 @@ Everything here is a one-time setup. Steps 1–2 are required; the rest are dist
 ## 1. Create the GitHub repo
 
 ```bash
-gh repo create AviOfLagos/award-tier-ui --public \
+gh repo create AviOfLagos/frontend-design-workflow --public \
   --description "Discovery-to-build workflow that stops AI from building the same anonymous website every time." \
   --source . --push
 ```
 
-If `gh` isn't set up, create `award-tier-ui` on github.com, then:
+If `gh` isn't set up, create `frontend-design-workflow` on github.com, then:
 
 ```bash
-git remote add origin https://github.com/AviOfLagos/award-tier-ui.git
+git remote add origin https://github.com/AviOfLagos/frontend-design-workflow.git
 git branch -M main && git push -u origin main
 ```
 
@@ -68,7 +68,7 @@ credentials, and `create-issues.sh` now prints its target repository and asks be
 anything.
 
 **Claude Code plugin marketplace** — the repo already works with
-`/plugin marketplace add AviOfLagos/award-tier-ui`.
+`/plugin marketplace add AviOfLagos/frontend-design-workflow`.
 
 ## 4. What to say when you post it
 

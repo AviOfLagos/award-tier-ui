@@ -6,9 +6,9 @@ Everything is committed locally already; nothing needs editing first.
 ## 1. Create the repo and push
 
 ```bash
-cd ~/26/award-tier-ui
+cd ~/26/frontend-design-workflow
 
-gh repo create AviOfLagos/award-tier-ui --public --source . --push \
+gh repo create AviOfLagos/frontend-design-workflow --public --source . --push \
   --description "Frontend/web design skill for AI coding agents — stops AI-generated sites from looking generic. Research → art direction → architecture → design tokens → verified build."
 ```
 
@@ -18,7 +18,7 @@ GitHub search indexes the repo name, About description and topics — **not** th
 your entire default search surface.
 
 ```bash
-gh repo edit AviOfLagos/award-tier-ui --add-topic agent-skills \
+gh repo edit AviOfLagos/frontend-design-workflow --add-topic agent-skills \
   --add-topic claude-skill --add-topic claude-code --add-topic cursor \
   --add-topic codex --add-topic skills --add-topic web-design \
   --add-topic frontend --add-topic ui-design --add-topic design-system \
@@ -43,10 +43,10 @@ Do this on a clean machine or a fresh directory. A broken install command in a l
 unrecoverable.
 
 ```bash
-npx skills add AviOfLagos/award-tier-ui
-gh skill install AviOfLagos/award-tier-ui frontend-design-workflow
+npx skills add AviOfLagos/frontend-design-workflow
+gh skill install AviOfLagos/frontend-design-workflow frontend-design-workflow
 # and in Claude Code:
-#   /plugin marketplace add AviOfLagos/award-tier-ui
+#   /plugin marketplace add AviOfLagos/frontend-design-workflow
 #   /plugin install frontend-design-workflow
 ```
 
