@@ -1,4 +1,4 @@
-# Award-tier UI — `frontend-design-workflow`
+# frontend-design-workflow
 
 **Stops AI from building the same anonymous website every time.** A discovery-to-build workflow that
 forces the design, architecture and stack decisions to happen *before* the first line of markup, and
